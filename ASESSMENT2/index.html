@@ -4,23 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>My frist webpage</title>
-    <link rel="stylesheet" href="index.css">
+    
 </head>
 <style>
-    ,main{
-        
+    .parent{
+        background-color: blue;
+        border: 3px solid black;
+    }
+    .child1{
+        background-color: orange;
+        top:5px;
+        left: 5px;
+        position: relative;
+    }
+    .child2{
+        background-color: yellow;
+        top: 5px;
+        left: 5px;
+
     }
 </style>
 <body>
     <form>
-        <label class="main" for="First name">First Name</label><br>
-        <input class="main" type="text"><br>
-        <label class="green" for="Last name">Last Name</label><br>
-        <input class="green" type="text"><br>
-        <label class="blue" for="email">Email</label><br>
-        <input class="blue" type="email" name="email" id="email"><br>
-        <label class="main1" for="password">Password</label><br>
-        <input class="main1" type="password" name="password" id="password"><br>
+     <div class="parent">
+        <div class="child1">this is child1</div>
+            <div class="child2">this is child2</div>
+        
+     </div>
     </form>
 </body>
 
