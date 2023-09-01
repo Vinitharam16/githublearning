@@ -3,34 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My frist webpage</title>
+    <title>PAN CARD</title>
     
 </head>
 <style>
-    .parent{
-        background-color: blue;
-        border: 3px solid black;
+    .pflex{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
     }
-    .child1{
-        background-color: orange;
-        top:5px;
-        left: 5px;
-        position: relative;
+    .pflex>div{
+        background-color: rgb(151, 0, 0);
     }
-    .child2{
-        background-color: yellow;
-        top: 5px;
-        left: 5px;
-
+    .main{
+        display: flex;
+        display: block;
+        font-size: 5px;
+        border: 1px solid black;
     }
+    .main>div{
+        background-color: rgb(250, 195, 176);
+    }
+    
 </style>
 <body>
     <form>
-     <div class="parent">
-        <div class="child1">this is child1</div>
-            <div class="child2">this is child2</div>
+        <section class="pflex">
+            <div style="font-size: 5px;  position: relative;">Request For New PAN Card Or/And Changes Or Correction in PAN Data</div>
+            <div style="font-size: 5px;position: relative;"><i>Fields marked with * (asterisk) are mandatory. To avoid mistake(s), please refer guidelines and instructions</i></div>
+        </section>
         
-     </div>
+        <section class="main">
+            <label for="citizen">Whether citizen of india</label>
+            <input type="checkbox" id="checkbox" name="checkbox">yes
+            <input type="checkbox" id="checkbox" name="checkbox">no<br>
+            <label for="text">*Permanent Account Number(PAN)</label>
+            <input type="text"><br>
+            <p>1.name</p>
+            <label for="text">Title</label>
+
+        </section>
+
+        
+    
+    
     </form>
 </body>
 
