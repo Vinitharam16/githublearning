@@ -1,12 +1,20 @@
-.main {
-    background-color: orangered;
+body{
+    background-color:aquamarine;
 }
-.main1 {
-    background-color: yellow;
+.box-part{
+    background-color: white;
+    margin-top:60px;
+    padding: 30px 10px;
 }
-.green{
-    background-color: green;
+.fa{
+    color: rgb(98, 98, 255);
 }
-.blue{
-    background-color: blueviolet;
+a{
+    border-bottom: 2px solid rgb(54, 134, 255);
+}
+p{
+    margin-top: 30px;
+}
+.box{
+    padding: 60px 0px;
 }
