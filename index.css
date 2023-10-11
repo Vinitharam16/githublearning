@@ -1,12 +1,9 @@
-.main {
-    background-color: orangered;
-}
-.main1 {
-    background-color: yellow;
-}
-.green{
-    background-color: green;
-}
-.blue{
-    background-color: blueviolet;
+
+body{
+    text-align: center;
+    background-color: grey;
+    padding-top: 250px;
+    font-size: 50px;
+    color:brown;
+    
 }
