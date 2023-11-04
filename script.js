@@ -226,8 +226,8 @@
     // }
 //  
 // }
-var res = fetch("https://restcountries.com/v3.1/all")
-.then((data)=>data.json()).then((data1)=>console.log(data1))
+// var res = fetch("https://restcountries.com/v3.1/all")
+// .then((data)=>data.json()).then((data1)=>console.log(data1))
 
 // var res = fetch("https://restcountries.com/v3.1/all")
 // .then((data)=>data.json()).then((data1)=>{
@@ -255,5 +255,27 @@ var res = fetch("https://restcountries.com/v3.1/all")
 
 
 
-const element = document.getElementById("div-02");
-element.remove(); // Removes the div with the 'div-02' id
+// const element = document.getElementById("div-02");
+// element.remove(); // Removes the div with the 'div-02' id
+
+
+
+// var ra = document.getElementsByClassName("demo");
+// document.getElementById("demo").style.textAlign = "Right";
+// var i = 13;
+// ra.innerHTML = 'Eligible to vote'
+// if(i>=18){
+//     ra.innerHTML = "Eligible to vote";
+// }
+// else{
+//       ra.innerHTML = 'Not eligible';
+// }
+
+var pr = document.getElementById("demo")
+var arr = [];
+for(var i = 1; i<=5; i++){
+    arr = arr.push(i);
+    console.log(arr);
+}
+pr.innerHTML = arr;
+document.body.append(pr);
